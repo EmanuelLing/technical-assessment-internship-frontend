@@ -31,7 +31,7 @@
             </div>
         </nav>
         <!-- TODO: Implement Task 2 here -->
-        <div class="container mt-5">
+        <section class="container mt-5">
             <h1 class="text-center mb-5">Our Services</h1>
         
             <div class="row g-4">
@@ -74,8 +74,32 @@
 
             </div>
 
-        </div>
+        </section>
         <!-- TODO: Implement Task 3 here -->
+                <section class="mt-5 pt-5 mb-5 pb-5">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form id="contactForm">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control rounded-md" id="nameInput" placeholder="Name" required>
+                            <label for="nameInput">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-md" id="emailInput" placeholder="name@example.com" required>
+                            <label for="emailInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control rounded-md" placeholder="Leave a message here" id="messageTextarea" style="height: 100px" required></textarea>
+                            <label for="messageTextarea">Message</label>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-md">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 
